@@ -9,6 +9,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+<<<<<<< HEAD
     main.cpp \
     mainwindow.cpp
 
@@ -17,6 +18,16 @@ HEADERS += \
 
 FORMS += \
     mainwindow.ui
+=======
+    Converter.cpp \
+    main.cpp
+
+HEADERS += \
+    Converter.h
+
+FORMS += \
+    Converter.ui
+>>>>>>> d0bfdfe (converter2.0 by AgashaKrutoi)
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

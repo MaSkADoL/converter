@@ -72,3 +72,7 @@ CMakeLists.txt.user*
 *.dll
 *.exe
 
+<<<<<<< HEAD
+=======
+build
+>>>>>>> d0bfdfe (converter2.0 by AgashaKrutoi)
